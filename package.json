@@ -36,7 +36,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "tsc -p tsconfig.json --noEmit && lint-staged && npm run build"
+      "pre-commit": "lint-staged && npm run build"
     }
   },
   "lint-staged": {
