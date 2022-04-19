@@ -40,7 +40,6 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx,scss}": "pretty-quick --staged",
-    "*.{ts,tsx}": "eslint --fix --max-warnings 0"
+    "*.{ts,tsx,scss}": "pretty-quick --staged"
   }
 }
